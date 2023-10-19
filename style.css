@@ -1,0 +1,59 @@
+.todolist {
+    margin-top: 150px;
+    width: 550px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid #6D6C6C;
+    color: white;
+    background: #1E272E;
+    padding: 23px 30px 30px 30px;
+    align-items: flex-start;
+    gap: 27px;
+}
+h3{
+ text-align: center;
+}
+.task-head {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.ip {
+    width: 386px;
+    height: 40px;
+    margin-left: 15px;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #FF6F6F;
+    flex-shrink: 0;
+    color: #FF6F6F;
+}
+.btn-add {
+    width: 100px;
+    height: 45px;
+    padding: 10px;
+    background: #FF2B2B;
+    color: white;
+    border-radius: 12px;
+}
+.task-item {
+    width: 400px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+.task-item:hover {
+    cursor: pointer;
+}
+.task-item[is-complete = true] span{
+ text-decoration:  line-through;
+ color: #ccc!important;
+}
+.btn-cn:hover {
+   cursor: pointer;
+}
+.task-result {
+    margin-top: 40px;
+    color: #ccc;
+}
